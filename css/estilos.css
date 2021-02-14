@@ -1,0 +1,102 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+body{
+    font-family:'Courier New', Courier, monospace;
+    font-size:18px;
+    background-color:#333;
+}
+.contenedor{
+    width:96%;
+    max-width:1000px;
+    margin:20px auto;
+    overflow:hidden; /* */
+}
+header{
+    background-color: rgb(37, 36, 36);
+}
+header nav{
+    width: 100%;
+}
+header nav ul{
+    list-style: none;
+    overflow: hidden;
+}
+header nav ul li{
+   float:left;
+   margin-bottom: 15px;
+   border-radius: 15px;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(168, 166, 166);
+    padding: 15px 20px;
+    display:inline-block;
+ }
+ header nav ul li a:hover{
+    background-color: rgb(85, 105, 93);
+    color:rgb(139, 98, 98);
+ }
+
+ .main{
+     width:70%;
+     float: left;
+     background-color:rgb(133, 62, 62);
+ }
+ .main .imagen{
+     width:100%;
+ }
+ .main .imagen img{
+    width:100%;
+} 
+.main .posts{
+    padding: 40px;
+}
+
+.main .posts article h2{
+    margin-bottom: 20px;
+    color: #fff;
+}
+.main .posts article h2 p{
+    margin-bottom: 15px;
+    color:#fff;
+}
+aside {
+    width:30%;
+    float:left;
+    background-color:rgb(199, 141, 141);
+    padding:20px;
+    color: #fff;
+    height: auto;
+}
+aside .widget{
+    margin-bottom: 20px;
+}
+aside .widget .titulo{
+    color:#fff;
+    margin-bottom:20px;
+}
+aside .widget ul{
+    list-style: none;
+}
+aside .widget ul li{
+    padding:10px 0;
+}
+aside .widget ul li a {
+    text-decoration:none;
+    color: 333px;;
+    border-radius:1px;
+    color: rgb(218, 40, 40);
+}
+aside .widget ul li a:hover{
+    color:#fff;
+}
+footer{
+    width: 70%;
+    text-align: center;
+    background-color:#fff;
+    color: rgb(141, 54, 54);
+    padding:15px 0;
+}
